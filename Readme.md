@@ -1,20 +1,19 @@
 
-Vue-SSB
-###
+# Vue-SSB
 
 
-Usage
-###
+
+## Usage
 
 Start the suggested sbot server setup:
 
-```
+```shell
 node ssb-server.js
 ```
 
 Add vue-ssb to your app, provide the remote websocket address gotten by running `ssb-server ws.getAddress` against a normally started ssb-server
 
-```
+```javascript
 import Vue from 'vue'
 import App from './App.vue'
 
@@ -29,7 +28,7 @@ new Vue({
 
 Load some posts into your component. Note that the $ssb client must be loaded async.
 
-```
+```html
 <template>
   <div class="messages">
     <h1>Posts</h1>
