@@ -1,0 +1,42 @@
+{
+  "name": "vue-ssb",
+  "version": "1.0.0",
+  "description": "VueJS Plugin to connect to Secure Scuttlebutt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dangerousbeans/vue-ssb.git"
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "keywords": [
+    "vuejs",
+    "ssb",
+    "plugin",
+    "decentralized",
+    "p2p"
+  ],
+  "author": "Joran Kikke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dangerousbeans/vue-ssb/issues"
+  },
+  "homepage": "https://github.com/dangerousbeans/vue-ssb#readme",
+  "dependencies": {
+    "ssb-client": "^4.7.2",
+    "ssb-server": "^14.1.12"
+  }
+}
