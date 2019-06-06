@@ -36,6 +36,7 @@
   },
   "homepage": "https://github.com/dangerousbeans/vue-ssb#readme",
   "dependencies": {
+    "lodash": "^4.17.11",
     "ssb-client": "^4.7.2",
     "ssb-server": "^14.1.12"
   }
